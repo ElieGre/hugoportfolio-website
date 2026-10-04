@@ -1,6 +1,7 @@
 import Background from './components/Background.jsx'
 import Grain from './components/Grain.jsx'
 import Hero from './components/Hero.jsx'
+import Timeline from './components/Timeline.jsx'
 import About from './components/About.jsx'
 import Gear from './components/Gear.jsx'
 import Projects from './components/Projects.jsx'
@@ -13,6 +14,7 @@ export default function App() {
       <Grain />
       <main>
         <Hero name="Hugo" />
+        <Timeline />
         <About />
         <Gear />
         <Projects />

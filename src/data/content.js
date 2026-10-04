@@ -35,3 +35,14 @@ export const contact = {
   title: 'Contact',
   email: 'hello@example.com',
 }
+
+export const timeline = {
+  title: 'Timeline',
+  items: [
+    { year: '2022', image: '/images/puppy.png', caption: 'Sample caption for 2022.' },
+    { year: '2023', image: '/images/puppy.png', caption: 'Sample caption for 2023.' },
+    { year: '2024', image: '/images/puppy.png', caption: 'Sample caption for 2024.' },
+    { year: '2025', image: '/images/puppy.png', caption: 'Sample caption for 2025.' },
+    { year: '2026', image: '/images/puppy.png', caption: 'Sample caption for 2026.' },
+  ],
+}

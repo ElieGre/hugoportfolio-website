@@ -33,8 +33,8 @@ export default function Hero({ name }) {
     // EXCEPT content; the `negative` copy (white, blend: difference) is clipped to ONLY the
     // content (images, cards, text lines), so over content the letters show its negative.
     // Clips are in the elements' local coordinates (they are translated by x, y).
-    const BOXES = '.project__thumb, .gear__item, .about__video video, .video-placeholder'
-    const TEXT = 'h2, h3, p, .contact__email, .gear__cat, .gear__name, .project__meta span'
+    const BOXES = '.project__thumb, .timeline__media, .gear__item, .about__video video, .video-placeholder'
+    const TEXT = '.timeline__year, .timeline__caption, h2, h3, p, .contact__email, .gear__cat, .gear__name, .project__meta span'
     const rr = (l, t, r, b, rad) =>
       `M${l + rad} ${t}H${r - rad}A${rad} ${rad} 0 0 1 ${r} ${t + rad}V${b - rad}A${rad} ${rad} 0 0 1 ${r - rad} ${b}` +
       `H${l + rad}A${rad} ${rad} 0 0 1 ${l} ${b - rad}V${t + rad}A${rad} ${rad} 0 0 1 ${l + rad} ${t}Z`
